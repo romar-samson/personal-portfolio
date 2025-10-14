@@ -21,32 +21,32 @@ function App() {
       <div className="collapse navbar-collapse text-center" id="navigation">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="index.html">
+            <a className="nav-link" href="#">
               Home
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="about.html">
+            <a className="nav-link" href="#about">
               about
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="blog.html">
+            <a className="nav-link" href="#skills">
               Skills
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio.html">
+            <a className="nav-link" href="#education">
               Education
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="portfolio.html">
+            <a className="nav-link" href="#projects">
               Projects
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="contact.html">
+            <a className="nav-link" href="#contact">
               Contact
             </a>
           </li>
@@ -63,7 +63,7 @@ function App() {
             Hi! I’m <br /> Romar Samson <br /> UI/UX Designer
           </h1>
           <div className="col-lg-3 col-10 mx-left">
-            <button className="btn btn-primary w-100" href="pdf/Romar_Samson_Resume.pdf">Download CV</button>
+            <button className="btn btn-primary w-100">Download CV</button>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ function App() {
   </section>
   {/* /hero area */}
   {/* about */}
-  <section className="section">
+  <section className="section" id="about">
     <div className="container">
       <div className="row">
         <div className="col-lg-10 mx-auto text-center">
@@ -145,7 +145,7 @@ function App() {
   </section>
   {/* /about */}
   {/* skills */}
-  <section className="section">
+  <section className="section" id="skills">
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
@@ -203,7 +203,7 @@ function App() {
   </section>
   {/* /skills */}
   {/* experience */}
-  <section className="section">
+  <section className="section" id="education">
     <div className="container">
       <div className="row justify-content-around">
         <div className="col-lg-12 text-center">
@@ -294,74 +294,86 @@ function App() {
   </section>
   {/* /education */}
   {/* portfolio */}
-  <section className="section">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 text-center">
-          <h2 className="section-title">Recent Projects</h2>
+<section className="section" id="projects">
+  <div className="container">
+    <div className="row">
+      <div className="col-12 text-center">
+        <h2 className="section-title">Recent Projects</h2>
+      </div>
+    </div>
+    <div className="row justify-content-center">
+      {/* Project 1 */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="position-relative rounded hover-wrapper">
+          <img
+            src="images/blog/FigmaPortfolio.png"
+            alt="portfolio-image"
+            className="img-fluid rounded w-100"
+          />
+          <div className="hover-overlay">
+            <div className="hover-content">
+              <a
+                className="btn btn-light btn-sm"
+                href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1"
+              >
+                view project
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="row shuffle-wrapper">
-        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
-          <div className="position-relative rounded hover-wrapper">
-          </div>
-        </div>
-        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
-          <div className="position-relative rounded hover-wrapper">
-            <img
-              src="images/blog/figmaPortfolio.png"
-              alt="portfolio-image"
-              className="img-fluid rounded w-100"
-            />
-            <div className="hover-overlay">
-              <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1">
-                  view project
-                </a>
-              </div>
+
+      {/* Project 2 */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="position-relative rounded hover-wrapper">
+          <img
+            src="images/blog/LVCIS.png"
+            alt="portfolio-image"
+            className="img-fluid rounded w-100"
+          />
+          <div className="hover-overlay">
+            <div className="hover-content">
+              <a
+                className="btn btn-light btn-sm"
+                href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1v"
+              >
+                view project
+              </a>
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
-          <div className="position-relative rounded hover-wrapper">
-            <img
-              src="images/blog/LVCIS.png"
-              alt="portfolio-image"
-              className="img-fluid rounded w-100"
-            />
-            <div className="hover-overlay">
-              <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1v">
-                  view project
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
-          <div className="position-relative rounded hover-wrapper">
-            <img
-              src="images/blog/2ndyearProject.png"
-              alt="portfolio-image"
-              className="img-fluid rounded w-100"
-            />
-            <div className="hover-overlay">
-              <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1">
-                  view project
-                </a>
-              </div>
+      </div>
+
+      {/* Project 3 */}
+      <div className="col-lg-4 col-md-6 mb-4">
+        <div className="position-relative rounded hover-wrapper">
+          <img
+            src="images/blog/2ndyearProject.png"
+            alt="portfolio-image"
+            className="img-fluid rounded w-100"
+          />
+          <div className="hover-overlay">
+            <div className="hover-content">
+              <a
+                className="btn btn-light btn-sm"
+                href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1"
+              >
+                view project
+              </a>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
-  {/* /Recent Projects */}
+  </div>
+</section>
+{/* /Recent Projects */}
+
   {/* contact */}
   <section
     className="section section-on-footer"
     data-background="images/backgrounds/bg-dots.png"
+    id="contact"
   >
     <div className="container">
       <div className="row">
