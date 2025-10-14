@@ -32,12 +32,17 @@ function App() {
           </li>
           <li className="nav-item">
             <a className="nav-link" href="blog.html">
-              Blog
+              Skills
             </a>
           </li>
           <li className="nav-item">
             <a className="nav-link" href="portfolio.html">
-              Portfolio
+              Education
+            </a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link" href="portfolio.html">
+              Projects
             </a>
           </li>
           <li className="nav-item">
@@ -57,6 +62,9 @@ function App() {
           <h1 className="text-white font-tertiary">
             Hi! I’m <br /> Romar Samson <br /> UI/UX Designer
           </h1>
+          <div className="col-lg-3 col-10 mx-left">
+            <button className="btn btn-primary w-100" href="pdf/Romar_Samson_Resume.pdf">Download CV</button>
+          </div>
         </div>
       </div>
     </div>
@@ -128,8 +136,8 @@ function App() {
             problem-solving, sharing a little bit knowledge within the community and 
             continuous learning. Here you'll find some of the projects I've been 
             working on, practicing, and contributing to. I work on projects including
-            building modern web applications, and mobile apps.
-
+            building modern web applications, and mobile apps. <br />
+            <br />Outside of work, I enjoy staying active through my favorite hobbies — playing table tennis, volleyball, and cycling. These activities help me stay fit, build teamwork, and keep a balanced lifestyle while having fun.
           </p>
         </div>
       </div>
@@ -203,21 +211,21 @@ function App() {
         </div>
         <div className="col-lg-3 col-md-4 text-center">
           <img src="images/experience/icon-1.png" alt="icon" />
-          <p className="mb-0">Jan 2007 - Feb 2009</p>
-          <h4>Junior UX Designer</h4>
-          <h6 className="text-light">WEBEX</h6>
+          <p className="mb-0">May 17, 2024</p>
+          <h4>Peak Performance: the 7 essentials for sales supremacy</h4>
+          <h6 className="text-light">Udemy</h6>
         </div>
         <div className="col-lg-3 col-md-4 text-center">
           <img src="images/experience/icon-2.png" alt="icon" />
-          <p className="mb-0">Mar 2009 - Aug 2014</p>
-          <h4>UX &amp; UI Designer</h4>
-          <h6 className="text-light">AUGMEDIX</h6>
+          <p className="mb-0">May 16, 2024</p>
+          <h4>Create and Design Digital Products using canva</h4>
+          <h6 className="text-light">Coursera</h6>
         </div>
         <div className="col-lg-3 col-md-4 text-center">
           <img src="images/experience/icon-3.png" alt="icon" />
-          <p className="mb-0">Sep 2014 - Present</p>
-          <h4>Senior UI Designer</h4>
-          <h6 className="text-light">THEMEFISHER</h6>
+          <p className="mb-0">October - Present</p>
+          <h4>UI/UX Roadmap</h4>
+          <h6 className="text-light">UI Rishi</h6>
         </div>
       </div>
     </div>
@@ -236,10 +244,10 @@ function App() {
               <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block" />
             </div>
             <div>
-              <p className="text-dark mb-1">2006</p>
-              <h4>Marters in UX Design</h4>
+              <p className="text-dark mb-1">2023</p>
+              <h4>Hello World!👋</h4>
               <p className="mb-0 text-light">
-                Masassusets Institute of Technology
+                La Verdad Christian College, INC
               </p>
             </div>
           </div>
@@ -250,9 +258,10 @@ function App() {
               <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block" />
             </div>
             <div>
-              <p className="text-dark mb-1">2004</p>
-              <h4>Honours in Fine Arts</h4>
-              <p className="mb-0 text-light">Harvard University</p>
+              <p className="text-dark mb-1">2025 - 2026</p>
+              <h4>Bachelor of Science in Information system
+              </h4>
+              <p className="mb-0 text-light">La Verdad Christian College, INC</p>
             </div>
           </div>
         </div>
@@ -262,21 +271,15 @@ function App() {
               <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block" />
             </div>
             <div>
-              <p className="text-dark mb-1">2000</p>
-              <h4>Higher Secondary Certificat</h4>
-              <p className="mb-0 text-light">Cardiff School</p>
+              <p className="text-dark mb-1">2023 - 2024</p>
+              <h4>Associate in Computer Technology</h4>
+              <p className="mb-0 text-light">La Verdad Christian College, INC</p>
             </div>
           </div>
         </div>
         <div className="col-lg-6 col-md-6 mb-80">
           <div className="d-flex">
             <div className="mr-lg-5 mr-3">
-              <i className="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block" />
-            </div>
-            <div>
-              <p className="text-dark mb-1">1998</p>
-              <h4>Secondary School Certificate</h4>
-              <p className="mb-0 text-light">Cardiff School</p>
             </div>
           </div>
         </div>
@@ -299,23 +302,11 @@ function App() {
         </div>
       </div>
       <div className="row shuffle-wrapper">
-        <div className="col-lg-4 col-6 mb-4 shuffle-item">
+        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
           <div className="position-relative rounded hover-wrapper">
-            <img
-              src="images/portfolio/item-1.png"
-              alt="portfolio-image"
-              className="img-fluid rounded w-100"
-            />
-            <div className="hover-overlay">
-              <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="project-single.html">
-                  view project
-                </a>
-              </div>
-            </div>
           </div>
         </div>
-        <div className="col-lg-4 col-6 mb-4 shuffle-item">
+        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
           <div className="position-relative rounded hover-wrapper">
             <img
               src="images/blog/figmaPortfolio.png"
@@ -324,55 +315,39 @@ function App() {
             />
             <div className="hover-overlay">
               <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="project-single.html">
+                <a className="btn btn-light btn-sm" href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1">
                   view project
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-6 mb-4 shuffle-item">
+        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
           <div className="position-relative rounded hover-wrapper">
             <img
-              src="images/portfolio/item-3.png"
+              src="images/blog/LVCIS.png"
               alt="portfolio-image"
               className="img-fluid rounded w-100"
             />
             <div className="hover-overlay">
               <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="project-single.html">
+                <a className="btn btn-light btn-sm" href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1v">
                   view project
                 </a>
               </div>
             </div>
           </div>
         </div>
-        <div className="col-lg-4 col-6 mb-4 shuffle-item">
+        <div className="col-lg-4 col-6 mb-4 mx-auto shuffle-item">
           <div className="position-relative rounded hover-wrapper">
             <img
-              src="images/portfolio/item-4.png"
+              src="images/blog/2ndyearProject.png"
               alt="portfolio-image"
               className="img-fluid rounded w-100"
             />
             <div className="hover-overlay">
               <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="project-single.html">
-                  view project
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-lg-4 col-6 mb-4 shuffle-item">
-          <div className="position-relative rounded hover-wrapper">
-            <img
-              src="images/portfolio/item-5.png"
-              alt="portfolio-image"
-              className="img-fluid rounded w-100"
-            />
-            <div className="hover-overlay">
-              <div className="hover-content">
-                <a className="btn btn-light btn-sm" href="project-single.html">
+                <a className="btn btn-light btn-sm" href="https://www.figma.com/design/bWP6URBxaNLhnD4t2XJhNB/Figma?node-id=0-1&t=A7aTYWUDphhw5el0-1">
                   view project
                 </a>
               </div>
@@ -382,7 +357,7 @@ function App() {
       </div>
     </div>
   </section>
-  {/* /portfolio */}
+  {/* /Recent Projects */}
   {/* contact */}
   <section
     className="section section-on-footer"
@@ -466,6 +441,7 @@ function App() {
       </p>
     </div>
   </footer>
+  {/* footer */}
 </>
 
     </>
