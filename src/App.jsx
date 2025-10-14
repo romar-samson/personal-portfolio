@@ -94,23 +94,23 @@ function App() {
     {/* social icon */}
     <ul className="list-unstyled ml-5 mt-3 position-relative zindex-1">
       <li className="mb-3">
-        <a className="text-white" href="#">
+        <a className="text-white" href="https://www.facebook.com/uqlzsam">
           <i className="ti-facebook" />
         </a>
       </li>
       <li className="mb-3">
-        <a className="text-white" href="#">
+        <a className="text-white" href="https://www.instagram.com/uqlzsam/">
           <i className="ti-instagram" />
         </a>
       </li>
       <li className="mb-3">
-        <a className="text-white" href="#">
+        <a className="text-white" href="https://dribbble.com/romar-samson">
           <i className="ti-dribbble" />
         </a>
       </li>
       <li className="mb-3">
-        <a className="text-white" href="#">
-          <i className="ti-twitter" />
+        <a className="text-white" href="https://github.com/romar-samson">
+          <i className="ti-github"/>
         </a>
       </li>
     </ul>
@@ -122,17 +122,15 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-10 mx-auto text-center">
-          <p className="font-secondary paragraph-lg text-dark">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+          <h1 className="section-title mb-3">About</h1>
+          <p className="font-poppins paragraph-lg text-grey">
+            I’m a UI/UX Designer from the Philippines, passionate about technology, 
+            problem-solving, sharing a little bit knowledge within the community and 
+            continuous learning. Here you'll find some of the projects I've been 
+            working on, practicing, and contributing to. I work on projects including
+            building modern web applications, and mobile apps.
+
           </p>
-          <a href="about.html" className="btn btn-transparent">
-            know more
-          </a>
         </div>
       </div>
     </div>
@@ -143,57 +141,52 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12 text-center">
-          <h2 className="section-title">Skills</h2>
+          <h2 className="section-title">Tech Stack</h2>
         </div>
         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
           <div className="card shadow text-center">
-            <div
-              className="position-relative rounded-top progress-wrapper"
-              data-color="#fdb157"
-            >
-              <div className="wave" data-progress="90%" />
-            </div>
             <div className="card-footer bg-white">
-              <h4 className="card-title">Web Design (90%)</h4>
+              <h4 className="card-title">Frontend</h4>
+              <p>Html</p>
+              <p>Css</p>
+              <p>JavaScript</p>
+              <p>React</p>
+              <p>Taildwind CSS</p>
+              <p>Vite</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
           <div className="card shadow text-center">
-            <div
-              className="position-relative rounded-top progress-wrapper"
-              data-color="#9473e6"
-            >
-              <div className="wave" data-progress="60%" />
-            </div>
             <div className="card-footer bg-white">
-              <h4 className="card-title">Logo Design (60%)</h4>
+              <h4 className="card-title">Backend</h4>
+              <p>Node.JS</p>
+              <p>Python</p>
+              <p>Csharp</p>
+              <p>PHP</p>
+              <p>Laravel</p>
+              <p>MySQL</p>
+              <p></p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
           <div className="card shadow text-center">
-            <div
-              className="position-relative rounded-top progress-wrapper"
-              data-color="#bdecf6"
-            >
-              <div className="wave" data-progress="80%" />
-            </div>
             <div className="card-footer bg-white">
-              <h4 className="card-title">After Effects (80%)</h4>
+              <h4 className="card-title">Tools</h4>
+              <p>Github</p>
+              <p>Git</p>
             </div>
           </div>
         </div>
         <div className="col-lg-3 col-sm-6 mb-4 mb-lg-0">
           <div className="card shadow text-center">
-            <div
-              className="position-relative rounded-top progress-wrapper"
-              data-color="#ffbcaa"
-            >
-              <div className="wave" data-progress="70%" />
-            </div>
             <div className="card-footer bg-white">
-              <h4 className="card-title">Web App (70%)</h4>
+              <h4 className="card-title">Design Tools</h4>
+              <p>Figma</p>
+              <p>Framer</p>
+              <p>Webflow</p>
+              <p>Canva</p>
             </div>
           </div>
         </div>
@@ -206,7 +199,7 @@ function App() {
     <div className="container">
       <div className="row justify-content-around">
         <div className="col-lg-12 text-center">
-          <h2 className="section-title">Experience</h2>
+          <h2 className="section-title">Certifications</h2>
         </div>
         <div className="col-lg-3 col-md-4 text-center">
           <img src="images/experience/icon-1.png" alt="icon" />
@@ -297,59 +290,12 @@ function App() {
     />
   </section>
   {/* /education */}
-  {/* services */}
-  <section className="section">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 text-center">
-          <h2 className="section-title">Services</h2>
-        </div>
-        <div className="col-md-4 mb-4 mb-md-0">
-          <div className="card hover-shadow shadow">
-            <div className="card-body text-center px-4 py-5">
-              <i className="ti-palette icon mb-5 d-inline-block" />
-              <h4 className="mb-4">UI Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 mb-4 mb-md-0">
-          <div className="card active-bg-primary hover-shadow shadow">
-            <div className="card-body text-center px-4 py-5">
-              <i className="ti-vector icon mb-5 d-inline-block" />
-              <h4 className="mb-4">UX Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="col-md-4 mb-4 mb-md-0">
-          <div className="card hover-shadow shadow">
-            <div className="card-body text-center px-4 py-5">
-              <i className="ti-panel icon mb-5 d-inline-block" />
-              <h4 className="mb-4">Interaction Design</h4>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* /services */}
   {/* portfolio */}
   <section className="section">
     <div className="container">
       <div className="row">
         <div className="col-12 text-center">
-          <h2 className="section-title">Portfolio</h2>
+          <h2 className="section-title">Recent Projects</h2>
         </div>
       </div>
       <div className="row shuffle-wrapper">
@@ -372,7 +318,7 @@ function App() {
         <div className="col-lg-4 col-6 mb-4 shuffle-item">
           <div className="position-relative rounded hover-wrapper">
             <img
-              src="images/portfolio/item-2.png"
+              src="images/blog/figmaPortfolio.png"
               alt="portfolio-image"
               className="img-fluid rounded w-100"
             />
@@ -437,274 +383,6 @@ function App() {
     </div>
   </section>
   {/* /portfolio */}
-  {/* testimonial */}
-  <section className="section bg-primary position-relative testimonial-bg-shapes">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 text-center">
-          <h2 className="section-title text-white mb-5">Testimonials</h2>
-        </div>
-        <div className="col-lg-10 mx-auto testimonial-slider">
-          {/* slider-item */}
-          <div className="text-center testimonial-content">
-            <i className="ti-quote-right text-white icon mb-4 d-inline-block" />
-            <p className="text-white mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,{" "}
-              <strong>
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
-              </strong>{" "}
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <img
-              className="img-fluid rounded-circle mb-4 d-inline-block"
-              src="images/testimonial/client-1.png"
-              alt="client-image"
-            />
-            <h4 className="text-white">Jesica Gomez</h4>
-            <h6 className="text-light mb-4">CEO, Funder</h6>
-          </div>
-          {/* slider-item */}
-          <div className="text-center testimonial-content">
-            <i className="ti-quote-right text-white icon mb-4 d-inline-block" />
-            <p className="text-white mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,{" "}
-              <strong>
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
-              </strong>{" "}
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <img
-              className="img-fluid rounded-circle mb-4 d-inline-block"
-              src="images/testimonial/client-1.png"
-              alt="client-image"
-            />
-            <h4 className="text-white">Jesica Gomez</h4>
-            <h6 className="text-light mb-4">CEO, Funder</h6>
-          </div>
-          {/* slider-item */}
-          <div className="text-center testimonial-content">
-            <i className="ti-quote-right text-white icon mb-4 d-inline-block" />
-            <p className="text-white mb-4">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam,{" "}
-              <strong>
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                commodo consequat.
-              </strong>{" "}
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-            </p>
-            <img
-              className="img-fluid rounded-circle mb-4 d-inline-block"
-              src="images/testimonial/client-1.png"
-              alt="client-image"
-            />
-            <h4 className="text-white">Jesica Gomez</h4>
-            <h6 className="text-light mb-4">CEO, Funder</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-    {/* bg shapes */}
-    <img
-      src="images/backgrounds/map.png"
-      alt="map"
-      className="img-fluid bg-map"
-    />
-    <img
-      src="images/illustrations/dots-group-v.png"
-      alt="bg-shape"
-      className="img-fluid bg-shape-1"
-    />
-    <img
-      src="images/illustrations/leaf-orange.png"
-      alt="bg-shape"
-      className="img-fluid bg-shape-2"
-    />
-    <img
-      src="images/illustrations/dots-group-sm.png"
-      alt="bg-shape"
-      className="img-fluid bg-shape-3"
-    />
-    <img
-      src="images/illustrations/leaf-pink-round.png"
-      alt="bg-shape"
-      className="img-fluid bg-shape-4"
-    />
-    <img
-      src="images/illustrations/leaf-cyan.png"
-      alt="bg-shape"
-      className="img-fluid bg-shape-5"
-    />
-  </section>
-  {/* /testimonial */}
-  {/* client logo slider */}
-  <section className="section pb-0">
-    <div className="container">
-      <div className="client-logo-slider d-flex align-items-center">
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-1.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-2.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-3.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-4.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-5.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-1.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-2.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-3.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-4.png"
-            alt="client-logo"
-          />
-        </a>
-        <a href="#" className="text-center d-block outline-0 p-4">
-          <img
-            className="d-unset img-fluid"
-            src="images/clients-logo/client-logo-5.png"
-            alt="client-logo"
-          />
-        </a>
-      </div>
-    </div>
-  </section>
-  {/* /client logo slider */}
-  {/* blog */}
-  <section className="section">
-    <div className="container">
-      <div className="row">
-        <div className="col-12 text-center">
-          <h2 className="section-title">Blogs</h2>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <article className="card shadow">
-            <img
-              className="rounded card-img-top"
-              src="images/blog/post-3.jpg"
-              alt="post-thumb"
-            />
-            <div className="card-body">
-              <h4 className="card-title">
-                <a className="text-dark" href="blog-single.html">
-                  Amazon increase income 1.5 Million
-                </a>
-              </h4>
-              <p className="cars-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="blog-single.html" className="btn btn-xs btn-primary">
-                Read More
-              </a>
-            </div>
-          </article>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <article className="card shadow">
-            <img
-              className="rounded card-img-top"
-              src="images/blog/post-4.jpg"
-              alt="post-thumb"
-            />
-            <div className="card-body">
-              <h4 className="card-title">
-                <a className="text-dark" href="blog-single.html">
-                  Amazon increase income 1.5 Million
-                </a>
-              </h4>
-              <p className="cars-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="blog-single.html" className="btn btn-xs btn-primary">
-                Read More
-              </a>
-            </div>
-          </article>
-        </div>
-        <div className="col-lg-4 col-sm-6 mb-4 mb-lg-0">
-          <article className="card shadow">
-            <img
-              className="rounded card-img-top"
-              src="images/blog/post-2.jpg"
-              alt="post-thumb"
-            />
-            <div className="card-body">
-              <h4 className="card-title">
-                <a className="text-dark" href="blog-single.html">
-                  Amazon increase income 1.5 Million
-                </a>
-              </h4>
-              <p className="cars-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              </p>
-              <a href="blog-single.html" className="btn btn-xs btn-primary">
-                Read More
-              </a>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
-  {/* /blog */}
   {/* contact */}
   <section
     className="section section-on-footer"
@@ -764,19 +442,19 @@ function App() {
           <div className="col-md-4">
             <h5 className="text-light">Email</h5>
             <p className="text-white paragraph-lg font-secondary">
-              steve.fruits@email.com
+              romarsamson11@gmail.com
             </p>
           </div>
           <div className="col-md-4">
             <h5 className="text-light">Phone</h5>
             <p className="text-white paragraph-lg font-secondary">
-              +880 2544 658 256
+              0927 521 5374
             </p>
           </div>
           <div className="col-md-4">
             <h5 className="text-light">Address</h5>
             <p className="text-white paragraph-lg font-secondary">
-              125/A, CA Commercial Area, California, USA
+              Tarlac City, Philippines
             </p>
           </div>
         </div>
@@ -784,7 +462,7 @@ function App() {
     </div>
     <div className="border-top text-center border-dark py-5">
       <p className="mb-0 text-light">
-        Copyright © a theme by <a href="themefisher.com">themefisher.com</a>
+        © 2025 Romar Samson.All rights reserved.
       </p>
     </div>
   </footer>
