@@ -86,4 +86,5 @@ GitHub Pages URL: https://romar-samson.github.io/personal-portfolio
 
 **Demo Recording**
 
-
+You can access the recording version in this link:
+Google drive URL: https://drive.google.com/drive/folders/1b8OiP1fEwbBgi6-s44EamJKNRY2tAg_2?usp=sharing
