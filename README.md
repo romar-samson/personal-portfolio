@@ -39,6 +39,7 @@ React – The primary JavaScript library used to create the interactive elements
 <br>Vite – A modern build tool for faster React development.
 <br>CSS – For styling the layout and design.
 <br>GitHub Pages – For hosting and deploying the live version of the website.
+<br>Boostrap - This include in the template for designing directly to html.
 
 **Features and Functionality**
 
