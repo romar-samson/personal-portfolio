@@ -59,15 +59,21 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-lg-11 mx-auto">
-          <h1 className="text-white font-tertiary">
-            Hi! I’m <br /> Romar Samson <br /> UI/UX Designer
-          </h1>
-          <div className="col-lg-3 col-10 mx-left">
-            <button className="btn btn-primary w-100">Download CV</button>
-          </div>
-        </div>
+        <h1 className="text-white font-tertiary">
+          Hi! I’m <br /> Romar Samson <br /> UI/UX Designer
+        </h1>
+        <div className="col-lg-3 col-10 mx-left">
+        <a
+          href="Romar_Samson_Resume.pdf"
+          download="Romar_Samson_Resume.pdf"
+          className="btn btn-primary w-100"
+        >
+          Download CV
+        </a>
       </div>
     </div>
+  </div>
+</div>
     <div className="layer-bg w-100">
       <img
         className="img-fluid w-100"
